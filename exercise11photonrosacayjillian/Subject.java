@@ -14,14 +14,12 @@ import java.util.ArrayList;
 public class Subject {
     private String name, imgFileName;
     private double units, grade;
-    private ArrayList<Subject> subjectList = new ArrayList();
 	
     public Subject(String n, String i, double u, double g){
-        this.name = n;
-        this.imgFileName = i;
-        this.units = u;
-        this.grade = g;
-        subjectList.add(this);
+        name = n;
+        imgFileName = i;
+        units = u;
+        grade = g;
     }
     public String getName() {
         return name;
